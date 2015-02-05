@@ -1,0 +1,13 @@
+{
+  "name": "Sagratha",
+  "version": "0.0.1",
+  "dependencies": {
+      "twitch-irc": "*"
+  },
+  "description": "Wu-shin's twitch bot based off twitch-irc",
+  "repository": "git@github.com:wushin/sagratha.git",
+  "readmeFilename": "README.md",
+  "dependencies": {
+      "twitch-irc": "*"
+  }
+}

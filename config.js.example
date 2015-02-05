@@ -1,0 +1,25 @@
+/**
+  * Config for twitch-bot
+  */
+var config = {}
+
+// Debug 0 = off, 1 = regular, 2 = Auth Debug (Exposes Key Careful)
+config.debug = 0;
+// Account Name
+config.username = '<BotName>';
+// Account Key (http://twitchapps.com/tmi/ to get one)
+config.password = '<oAuthKey>';
+// List of channels to join
+config.channels = ['#Channel1', '#Channel2'];
+// Number of reconnects to attempt
+config.retries = 3;
+// Whether to reconnect
+config.reconnect = true;
+// Server type (chat, event, group)
+config.serverType = 'chat';
+// Prefered server host
+//config.preferredServer = '';
+// Prefered server port
+//config.preferredPort = ;
+
+module.exports = config;
